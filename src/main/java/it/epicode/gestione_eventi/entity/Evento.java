@@ -6,9 +6,8 @@ import lombok.*;
 
 import java.util.Date;
 
-
-@Data
 @Entity
+@Data
 @Table(name = "eventi")
 public class Evento {
     @Id
@@ -25,13 +24,15 @@ public class Evento {
     private String descrizione;
 
     @Column(name = "tipo_evento", nullable = false)
+    @Enumerated(EnumType.STRING)
     private EventoEnum tipoEvento;
 
     @Column(name = "num_max_partecipanti",nullable = false)
     private int numeroMassimoPartecipanti;
 
-    public static void main(String[] args) {
 
-    }
+
+
+
 
 }

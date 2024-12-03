@@ -9,7 +9,7 @@ target/
 .idea/jarRepositories.xml
 .idea/compiler.xml
 .idea/libraries/
-.idea/src/main/resources/META_INF/persistance.xml
+src/main/resources/META_INF/persistance.xml
 *.iws
 *.iml
 *.ipr
