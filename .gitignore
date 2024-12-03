@@ -3,12 +3,13 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+
 ### IntelliJ IDEA ###
 .idea/modules.xml
 .idea/jarRepositories.xml
 .idea/compiler.xml
 .idea/libraries/
-.ideasrc/main/resources/META_INF/persistance.xml
+.idea/src/main/resources/META_INF/persistance.xml
 *.iws
 *.iml
 *.ipr
